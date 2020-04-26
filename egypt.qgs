@@ -1,0 +1,745 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis saveUserFull="Delta Echo" version="3.12.2-București" projectname="" saveUser="delta">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer expanded="1" name="ac_baresoil" legend_exp="" checked="Qt::Checked" id="ac_baresoil_c7c20fee_c2dd_4b10_94cf_c50bb05723e0" providerKey="ogr" source="./data/shapefiles/ac_baresoil/ac_baresoil.shp">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" name="eg-landcover" legend_exp="" checked="Qt::Checked" id="eg_landcover_746b5eba_ddbc_4e5d_a46f_c26b09d52944" providerKey="ogr" source="./data/shapefiles/eg_landcover/eg-landcover.shp">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>eg_landcover_746b5eba_ddbc_4e5d_a46f_c26b09d52944</item>
+      <item>ac_baresoil_c7c20fee_c2dd_4b10_94cf_c50bb05723e0</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings unit="1" mode="2" intersection-snapping="0" enabled="0" tolerance="12" type="1">
+    <individual-layer-settings>
+      <layer-setting units="1" id="eg_landcover_746b5eba_ddbc_4e5d_a46f_c26b09d52944" enabled="0" tolerance="12" type="1"/>
+      <layer-setting units="1" id="ac_baresoil_c7c20fee_c2dd_4b10_94cf_c50bb05723e0" enabled="0" tolerance="12" type="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>27.43729517048445388</xmin>
+      <ymin>26.53581858790919767</ymin>
+      <xmax>31.70738489216405043</xmax>
+      <ymax>29.931616603503862</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer name="ac_baresoil" showFeatureCount="0" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="ac_baresoil_c7c20fee_c2dd_4b10_94cf_c50bb05723e0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="eg-landcover" showFeatureCount="0" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="eg_landcover_746b5eba_ddbc_4e5d_a46f_c26b09d52944" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer autoRefreshEnabled="0" autoRefreshTime="0" wkbType="MultiPolygon" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" styleCategories="AllStyleCategories" maxScale="0" minScale="100000000" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0">
+      <id>ac_baresoil_c7c20fee_c2dd_4b10_94cf_c50bb05723e0</id>
+      <datasource>./data/shapefiles/ac_baresoil/ac_baresoil.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ac_baresoil</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="ISO-8859-1">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" name="0" alpha="1" type="fill" clip_to_extent="1">
+            <layer locked="0" enabled="1" class="SimpleFill" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="190,207,80,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"USERLABEL"</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="USERLABEL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LCCCODE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LCCLEVEL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CODE1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CODE2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CODE3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUBCOD1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUBCOD2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUBCOD3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="USERLABEL" index="0" name=""/>
+        <alias field="LCCCODE" index="1" name=""/>
+        <alias field="LCCLEVEL" index="2" name=""/>
+        <alias field="CODE1" index="3" name=""/>
+        <alias field="CODE2" index="4" name=""/>
+        <alias field="CODE3" index="5" name=""/>
+        <alias field="SUBCOD1" index="6" name=""/>
+        <alias field="SUBCOD2" index="7" name=""/>
+        <alias field="SUBCOD3" index="8" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="USERLABEL" applyOnUpdate="0" expression=""/>
+        <default field="LCCCODE" applyOnUpdate="0" expression=""/>
+        <default field="LCCLEVEL" applyOnUpdate="0" expression=""/>
+        <default field="CODE1" applyOnUpdate="0" expression=""/>
+        <default field="CODE2" applyOnUpdate="0" expression=""/>
+        <default field="CODE3" applyOnUpdate="0" expression=""/>
+        <default field="SUBCOD1" applyOnUpdate="0" expression=""/>
+        <default field="SUBCOD2" applyOnUpdate="0" expression=""/>
+        <default field="SUBCOD3" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="USERLABEL" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="LCCCODE" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="LCCLEVEL" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="CODE1" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="CODE2" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="CODE3" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="SUBCOD1" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="SUBCOD2" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="SUBCOD3" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="USERLABEL" desc="" exp=""/>
+        <constraint field="LCCCODE" desc="" exp=""/>
+        <constraint field="LCCLEVEL" desc="" exp=""/>
+        <constraint field="CODE1" desc="" exp=""/>
+        <constraint field="CODE2" desc="" exp=""/>
+        <constraint field="CODE3" desc="" exp=""/>
+        <constraint field="SUBCOD1" desc="" exp=""/>
+        <constraint field="SUBCOD2" desc="" exp=""/>
+        <constraint field="SUBCOD3" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column name="USERLABEL" width="-1" type="field" hidden="0"/>
+          <column name="LCCCODE" width="-1" type="field" hidden="0"/>
+          <column name="LCCLEVEL" width="-1" type="field" hidden="0"/>
+          <column name="CODE1" width="-1" type="field" hidden="0"/>
+          <column name="CODE2" width="-1" type="field" hidden="0"/>
+          <column name="CODE3" width="-1" type="field" hidden="0"/>
+          <column name="SUBCOD1" width="-1" type="field" hidden="0"/>
+          <column name="SUBCOD2" width="-1" type="field" hidden="0"/>
+          <column name="SUBCOD3" width="-1" type="field" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"USERLABEL"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" autoRefreshTime="0" wkbType="MultiPolygon" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" styleCategories="AllStyleCategories" maxScale="0" minScale="100000000" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>24.69843673706054688</xmin>
+        <ymin>21.96494483947753906</ymin>
+        <xmax>36.89869308471679688</xmax>
+        <ymax>31.66722488403320313</ymax>
+      </extent>
+      <id>eg_landcover_746b5eba_ddbc_4e5d_a46f_c26b09d52944</id>
+      <datasource>./data/shapefiles/eg_landcover/eg-landcover.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>eg-landcover</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="ISO-8859-1">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" name="0" alpha="1" type="fill" clip_to_extent="1">
+            <layer locked="0" enabled="1" class="SimpleFill" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="114,155,111,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="&quot;USERLABEL&quot;" key="dualview/previewExpressions"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="USERLABEL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LCCCODE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LCCLEVEL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CODE1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CODE2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CODE3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUBCOD1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUBCOD2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUBCOD3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="USERLABEL" index="0" name=""/>
+        <alias field="LCCCODE" index="1" name=""/>
+        <alias field="LCCLEVEL" index="2" name=""/>
+        <alias field="CODE1" index="3" name=""/>
+        <alias field="CODE2" index="4" name=""/>
+        <alias field="CODE3" index="5" name=""/>
+        <alias field="SUBCOD1" index="6" name=""/>
+        <alias field="SUBCOD2" index="7" name=""/>
+        <alias field="SUBCOD3" index="8" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="USERLABEL" applyOnUpdate="0" expression=""/>
+        <default field="LCCCODE" applyOnUpdate="0" expression=""/>
+        <default field="LCCLEVEL" applyOnUpdate="0" expression=""/>
+        <default field="CODE1" applyOnUpdate="0" expression=""/>
+        <default field="CODE2" applyOnUpdate="0" expression=""/>
+        <default field="CODE3" applyOnUpdate="0" expression=""/>
+        <default field="SUBCOD1" applyOnUpdate="0" expression=""/>
+        <default field="SUBCOD2" applyOnUpdate="0" expression=""/>
+        <default field="SUBCOD3" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="USERLABEL" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="LCCCODE" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="LCCLEVEL" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="CODE1" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="CODE2" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="CODE3" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="SUBCOD1" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="SUBCOD2" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="SUBCOD3" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="USERLABEL" desc="" exp=""/>
+        <constraint field="LCCCODE" desc="" exp=""/>
+        <constraint field="LCCLEVEL" desc="" exp=""/>
+        <constraint field="CODE1" desc="" exp=""/>
+        <constraint field="CODE2" desc="" exp=""/>
+        <constraint field="CODE3" desc="" exp=""/>
+        <constraint field="SUBCOD1" desc="" exp=""/>
+        <constraint field="SUBCOD2" desc="" exp=""/>
+        <constraint field="SUBCOD3" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;CODE1&quot;" sortOrder="0">
+        <columns>
+          <column name="USERLABEL" width="-1" type="field" hidden="0"/>
+          <column name="LCCCODE" width="241" type="field" hidden="0"/>
+          <column name="LCCLEVEL" width="382" type="field" hidden="0"/>
+          <column name="CODE1" width="-1" type="field" hidden="0"/>
+          <column name="CODE2" width="184" type="field" hidden="0"/>
+          <column name="CODE3" width="-1" type="field" hidden="0"/>
+          <column name="SUBCOD1" width="-1" type="field" hidden="0"/>
+          <column name="SUBCOD2" width="-1" type="field" hidden="0"/>
+          <column name="SUBCOD3" width="-1" type="field" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"USERLABEL"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="eg_landcover_746b5eba_ddbc_4e5d_a46f_c26b09d52944"/>
+    <layer id="ac_baresoil_c7c20fee_c2dd_4b10_94cf_c50bb05723e0"/>
+  </layerorder>
+  <properties>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Delta Echo</author>
+    <creation>2020-04-25T10:12:24</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+  <ProjectDisplaySettings>
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option value="" name="decimal_separator" type="QChar"/>
+        <Option value="6" name="decimals" type="int"/>
+        <Option value="0" name="direction_format" type="int"/>
+        <Option value="0" name="rounding_type" type="int"/>
+        <Option value="false" name="show_plus" type="bool"/>
+        <Option value="true" name="show_thousand_separator" type="bool"/>
+        <Option value="false" name="show_trailing_zeros" type="bool"/>
+        <Option value="" name="thousand_separator" type="QChar"/>
+      </Option>
+    </BearingFormat>
+  </ProjectDisplaySettings>
+</qgis>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="dsf2aptdat.py" copyright="scenery gateway contributors">
+<node id="25" visible="true" version="1"   lat="23.964503770" lon="32.825117010"/>
+<node id="26" visible="true" version="1"   lat="23.964516810" lon="32.825222409"/>
+<node id="27" visible="true" version="1"   lat="23.964600196" lon="32.825209899"/>
+<node id="28" visible="true" version="1"   lat="23.964578617" lon="32.825049395"/>
+<node id="29" visible="true" version="1"   lat="23.964401953" lon="32.825077125"/>
+<node id="30" visible="true" version="1"   lat="23.964382570" lon="32.824932901"/>
+<node id="31" visible="true" version="1"   lat="23.964343741" lon="32.824939231"/>
+<node id="32" visible="true" version="1"   lat="23.964292215" lon="32.824947631"/>
+<node id="33" visible="true" version="1"   lat="23.964267550" lon="32.824951310"/>
+<node id="34" visible="true" version="1"   lat="23.964292604" lon="32.825149725"/>
+<node id="49" visible="true" version="1"   lat="23.955047709" lon="32.825452302"/>
+<node id="50" visible="true" version="1"   lat="23.955157863" lon="32.826144274"/>
+<node id="51" visible="true" version="1"   lat="23.955202583" lon="32.826134397"/>
+<node id="52" visible="true" version="1"   lat="23.955185695" lon="32.826018188"/>
+<node id="53" visible="true" version="1"   lat="23.955307788" lon="32.825996343"/>
+<node id="54" visible="true" version="1"   lat="23.955665197" lon="32.825932397"/>
+<node id="55" visible="true" version="1"   lat="23.956031506" lon="32.825866859"/>
+<node id="56" visible="true" version="1"   lat="23.956049678" lon="32.825973814"/>
+<node id="57" visible="true" version="1"   lat="23.956090080" lon="32.825967078"/>
+<node id="58" visible="true" version="1"   lat="23.955950577" lon="32.825259294"/>
+<node id="59" visible="true" version="1"   lat="23.955900563" lon="32.825270735"/>
+<node id="60" visible="true" version="1"   lat="23.955931353" lon="32.825416164"/>
+<node id="61" visible="true" version="1"   lat="23.955106326" lon="32.825576590"/>
+<node id="62" visible="true" version="1"   lat="23.955084572" lon="32.825446425"/>
+<node id="63" visible="true" version="1"   lat="23.955307788" lon="32.825996343"/>
+<node id="64" visible="true" version="1"   lat="23.955329346" lon="32.826145070"/>
+<node id="65" visible="true" version="1"   lat="23.955683231" lon="32.826071219"/>
+<node id="66" visible="true" version="1"   lat="23.955679516" lon="32.826042620"/>
+<node id="67" visible="true" version="1"   lat="23.955668583" lon="32.825958456"/>
+<node id="68" visible="true" version="1"   lat="23.955665197" lon="32.825932397"/>
+<way id="0" visible="true" version="1" >
+<nd ref="25"/>
+<nd ref="26"/>
+<nd ref="27"/>
+<nd ref="28"/>
+<nd ref="29"/>
+<nd ref="30"/>
+<nd ref="31"/>
+<nd ref="32"/>
+<nd ref="33"/>
+<nd ref="34"/>
+<nd ref="25"/>
+<tag k="building" v="yes"/>
+<tag k="building:height" v="10"/>
+<tag k="facade_file_name" v="lib/airport/Common_Elements/Misc_Buildings/White_Office.fac"/>
+</way>
+<way id="0" visible="true" version="1" >
+<nd ref="49"/>
+<nd ref="50"/>
+<nd ref="51"/>
+<nd ref="52"/>
+<nd ref="53"/>
+<nd ref="54"/>
+<nd ref="55"/>
+<nd ref="56"/>
+<nd ref="57"/>
+<nd ref="58"/>
+<nd ref="59"/>
+<nd ref="60"/>
+<nd ref="61"/>
+<nd ref="62"/>
+<nd ref="49"/>
+<tag k="building" v="yes"/>
+<tag k="building:height" v="20"/>
+<tag k="facade_file_name" v="lib/airport/Common_Elements/Hangars/White_Hangar.fac"/>
+</way>
+<way id="0" visible="true" version="1" >
+<nd ref="63"/>
+<nd ref="64"/>
+<nd ref="65"/>
+<nd ref="66"/>
+<nd ref="67"/>
+<nd ref="68"/>
+<nd ref="63"/>
+<tag k="building" v="yes"/>
+<tag k="building:height" v="12"/>
+<tag k="facade_file_name" v="lib/airport/Common_Elements/Misc_Buildings/White_Office.fac"/>
+</way>
+</osm>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="dsf2aptdat.py" copyright="scenery gateway contributors">
+<node id="13" visible="true" version="1"   lat="30.931877933" lon="29.696554604"/>
+<node id="14" visible="true" version="1"   lat="30.932179658" lon="29.696990760"/>
+<node id="15" visible="true" version="1"   lat="30.932433432" lon="29.696740279"/>
+<node id="16" visible="true" version="1"   lat="30.932257364" lon="29.696474817"/>
+<node id="17" visible="true" version="1"   lat="30.932601021" lon="29.696165742"/>
+<node id="18" visible="true" version="1"   lat="30.932788795" lon="29.696439744"/>
+<node id="19" visible="true" version="1"   lat="30.933043790" lon="29.696218962"/>
+<node id="20" visible="true" version="1"   lat="30.932756469" lon="29.695763602"/>
+<way id="0" visible="true" version="1" >

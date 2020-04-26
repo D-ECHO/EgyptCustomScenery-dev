@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="dsf2aptdat.py" copyright="scenery gateway contributors">
+<node id="48" visible="true" version="1"   lat="30.929964300" lon="28.463180811"/>
+<node id="49" visible="true" version="1"   lat="30.930316060" lon="28.463548776"/>
+<node id="50" visible="true" version="1"   lat="30.930769188" lon="28.462960073"/>
+<node id="51" visible="true" version="1"   lat="30.930417428" lon="28.462592108"/>
+<way id="0" visible="true" version="1" >
+<nd ref="48"/>
+<nd ref="49"/>
+<nd ref="50"/>
+<nd ref="51"/>
+<nd ref="48"/>
+<tag k="building" v="yes"/>
+<tag k="building:height" v="10"/>
+<tag k="facade_file_name" v="lib/airport/Modern_Airports/Facades/modern1.fac"/>
+</way>
+</osm>

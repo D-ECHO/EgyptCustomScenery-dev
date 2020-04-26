@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="dsf2aptdat.py" copyright="scenery gateway contributors">
+<node id="1712" visible="true" version="1"   lat="29.592466000" lon="34.778170033"/>
+<node id="1713" visible="true" version="1"   lat="29.592196139" lon="34.778188561"/>
+<node id="1714" visible="true" version="1"   lat="29.592202686" lon="34.778314670"/>
+<node id="1715" visible="true" version="1"   lat="29.592472547" lon="34.778296143"/>
+<node id="1716" visible="true" version="1"   lat="29.592453345" lon="34.778320830"/>
+<node id="1717" visible="true" version="1"   lat="29.592233536" lon="34.778335921"/>
+<node id="1718" visible="true" version="1"   lat="29.592242746" lon="34.778513326"/>
+<node id="1719" visible="true" version="1"   lat="29.592462554" lon="34.778498234"/>
+<node id="1720" visible="true" version="1"   lat="29.592428192" lon="34.777969957"/>
+<node id="1721" visible="true" version="1"   lat="29.592208384" lon="34.777985048"/>
+<node id="1722" visible="true" version="1"   lat="29.592217593" lon="34.778162452"/>
+<node id="1723" visible="true" version="1"   lat="29.592437402" lon="34.778147361"/>
+<node id="1724" visible="true" version="1"   lat="29.595219781" lon="34.769884986"/>
+<node id="1725" visible="true" version="1"   lat="29.595076123" lon="34.769738697"/>
+<node id="1726" visible="true" version="1"   lat="29.595036045" lon="34.769790751"/>
+<node id="1727" visible="true" version="1"   lat="29.595179703" lon="34.769937040"/>
+<node id="1773" visible="true" version="1"   lat="29.597242296" lon="34.774933398"/>
+<node id="1774" visible="true" version="1"   lat="29.597180489" lon="34.774760434"/>
+<node id="1775" visible="true" version="1"   lat="29.597036493" lon="34.774828491"/>
+<node id="1776" visible="true" version="1"   lat="29.597085292" lon="34.774965052"/>
+<node id="1777" visible="true" version="1"   lat="29.597098300" lon="34.775001455"/>
+<way id="0" visible="true" version="1" >
+<nd ref="1712"/>
+<nd ref="1713"/>
+<nd ref="1714"/>
+<nd ref="1715"/>
+<nd ref="1712"/>
+<tag k="building" v="yes"/>
+<tag k="building:height" v="15"/>
+<tag k="facade_file_name" v="lib/airport/Common_Elements/Misc_Buildings/Cargo_Terminal.fac"/>
+</way>
+<way id="0" visible="true" version="1" >
+<nd ref="1716"/>
+<nd ref="1717"/>
+<nd ref="1718"/>
+<nd ref="1719"/>
+<nd ref="1716"/>
+<tag k="building" v="yes"/>
+<tag k="building:height" v="15"/>
+<tag k="facade_file_name" v="lib/airport/Common_Elements/Misc_Buildings/Cargo_Terminal.fac"/>
+</way>
+<way id="0" visible="true" version="1" >
+<nd ref="1720"/>
+<nd ref="1721"/>
+<nd ref="1722"/>
+<nd ref="1723"/>
+<nd ref="1720"/>
+<tag k="building" v="yes"/>
+<tag k="building:height" v="15"/>
+<tag k="facade_file_name" v="lib/airport/Common_Elements/Misc_Buildings/Cargo_Terminal.fac"/>
+</way>
+<way id="0" visible="true" version="1" >
+<nd ref="1724"/>
+<nd ref="1725"/>
+<nd ref="1726"/>
+<nd ref="1727"/>
+<nd ref="1724"/>
+<tag k="building" v="yes"/>
+<tag k="building:height" v="5"/>
+<tag k="facade_file_name" v="lib/buildings/facades/generic/high_modern_02.fac"/>
+</way>
+<way id="0" visible="true" version="1" >
+<nd ref="1773"/>
+<nd ref="1774"/>
+<nd ref="1775"/>
+<nd ref="1776"/>
+<nd ref="1777"/>
+<nd ref="1773"/>
+<tag k="building" v="yes"/>
+<tag k="building:height" v="15"/>
+<tag k="facade_file_name" v="lib/airport/Common_Elements/Misc_Buildings/White_Warehouse.fac"/>
+</way>
+</osm>

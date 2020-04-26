@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="dsf2aptdat.py" copyright="scenery gateway contributors">
+<node id="85" visible="true" version="1"   lat="27.978451784" lon="34.384363305"/>
+<node id="86" visible="true" version="1"   lat="27.978451784" lon="34.384363305"/>
+<node id="87" visible="true" version="1"   lat="27.978125525" lon="34.384998174"/>
+<node id="88" visible="true" version="1"   lat="27.978631771" lon="34.385333517"/>
+<node id="89" visible="true" version="1"   lat="27.978999785" lon="34.384735418"/>
+<node id="97" visible="true" version="1"   lat="27.979293271" lon="34.385357348"/>
+<node id="98" visible="true" version="1"   lat="27.979293271" lon="34.385357348"/>
+<node id="99" visible="true" version="1"   lat="27.979043096" lon="34.385733765"/>
+<node id="100" visible="true" version="1"   lat="27.979439442" lon="34.386030819"/>
+<node id="101" visible="true" version="1"   lat="27.979663742" lon="34.385619380"/>
+<way id="0" visible="true" version="1" >
+<nd ref="85"/>
+<nd ref="86"/>
+<nd ref="87"/>
+<nd ref="88"/>
+<nd ref="89"/>
+<nd ref="85"/>
+<tag k="building" v="yes"/>
+<tag k="building:height" v="5"/>
+<tag k="facade_file_name" v="lib/g10/US/urban_high/33x35x30.fac"/>
+</way>
+<way id="0" visible="true" version="1" >
+<nd ref="97"/>
+<nd ref="98"/>
+<nd ref="99"/>
+<nd ref="100"/>
+<nd ref="101"/>
+<nd ref="97"/>
+<tag k="building" v="yes"/>
+<tag k="building:height" v="5"/>
+<tag k="facade_file_name" v="lib/g10/US/urban_high/33x35x30.fac"/>
+</way>
+</osm>
