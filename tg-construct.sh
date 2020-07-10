@@ -1,7 +1,8 @@
 case $1 in
 	1) geo='--min-lon=31.25 --max-lon=31.5 --min-lat=30.0 --max-lat=30.25';;	# small test area around Cairo airport
 	2) geo='--min-lon=30.5 --max-lon=32.0 --min-lat=29.5 --max-lat=30.5';;		# Cairo region
-	3) geo='--min-lon=34.5 --max-lon=35.0 --min-lat=25.25 --max-lat=25.75';;	# Marsa Alam
+	3) geo='--min-lon=34.5 --max-lon=35.0 --min-lat=25.25 --max-lat=25.75';;	# Marsa Alam (HEMA)
+	4) geo='--min-lon=33.5 --max-lon=34.0 --min-lat=27.0 --max-lat=27.5';;		# Hurghada (HEGN)
 esac
 echo $1
 echo $geo
