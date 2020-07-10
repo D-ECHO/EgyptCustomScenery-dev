@@ -1,8 +1,9 @@
 groundnet/aptdat2sqlite.py
 groundnet/legacy-groundnets-icao.lst
 groundnet/sqlite2xml.py
+groundnet/Airports
 gateway_pull.py
-data/SRTM-1
+data/SRTM-3
 work
 work-final
 output

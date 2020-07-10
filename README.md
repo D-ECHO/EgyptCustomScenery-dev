@@ -14,11 +14,11 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  
 ## Egypt Custom Scenery by Benedikt Wolf (D-ECHO)
 
-This repository includes the scripts and data that was used for generating the "Egypt Custom Scenery". data/SRTM-1 and the work*/ folders are not included for file size reasons, but they can be generated using the scripts given here.
+This repository includes the scripts and data that was used for generating the "Egypt Custom Scenery". data/SRTM-3 and the work*/ folders are not included for file size reasons, but they can be generated using the scripts given here.
 
 Following sources have been used:
 
-* SRTM-1 global elevation data from https://lpdaac.usgs.gov/products/srtmgl1v003/ 
+* SRTM-3 elevation data from http://viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm
 * Landcover Data from AFRICOVER by the FAO from http://www.fao.org/geonetwork/srv/en/main.home?uuid=a7fd1a64-475f-4e34-a3b3-c79e014311ec 
 	# This project uses landcover shapefiles produced by FAO - Africover
 * Landcover Data from http://download.geofabrik.de and https://osmdata.openstreetmap.de/data/land-polygons.html under ODbL 1.0
